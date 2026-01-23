@@ -9,10 +9,8 @@ provides: snjuk2_LFO/gfxlib.jsfx-inc
  * Reaper forum : https://forum.cockos.com/showthread.php?t=276121
  * Licence: GPL v3
  * REAPER: 7.0
- * Version: 1.1 (2023-11-26)
+ * Version: 1.2 (2026-01-22)
  */
-
-slider1:out=0<-1,1,0.01>-Output            
 
 slider2:str=100<0,100,1>Amount 
 slider3:shape=0<0,6,1{sine,square,saw L,saw R,triangle,random,step}>Shape 
@@ -21,7 +19,7 @@ slider5:shape2=5<0,6,1{sine,square2,saw L,saw R,triangle,phase,step}>Shape
 slider6:str2=0<0,100,1>Amount 
 
 slider8:0<0,1,1{Off (Hz),On (Beats)}>Tempo sync:  
-slider9:1<0.001,8,0.001>Speed:   Hz    
+slider9:1<0.001,60,0.001>Speed:   Hz    
 slider10:2<8,0.125,0.125>Speed:   QN  
 
 slider12:inv=1<-1,1,2> -Inv
